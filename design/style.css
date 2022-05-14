@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+			font-family: 'Karla', sans-serif;	
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+.wrapper{
+				display: grid;
+				grid-template-columns: 80%;
+				justify-content: center;
+				color: #E6EFF6;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box1{
+				background: white;
+}
+.box1 h3{
+				color: hsl(179, 62%, 43%);
+}
+.box1 h4{
+				color: hsl(71, 73%, 54%);
+}
+.box1 p{
+				color: hsl(218, 22%, 67%);
+}
+.box2{
+				background: hsl(179, 62%, 43%);
+				 color: white;
+}
+.box2 .p1{
+				font-weight: lighter;
+				font-size: 15px;
+				 
+}
+.box2 p span{
+       font-size: 35px;
+       color: white;
+}
+.box2 button{
+				background:hsl(71, 73%, 54%) ;
+				color: white;
+				width: 275px;
+				height: 50px;
+				border: solid hsl(71, 73%, 54%);
+				display: flex;
+				align-items: center;
+				border-radius: 10px;
+				justify-content: center;
+}
+.box3{
+       background: #4abfbd;
+		 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		 color: white;
+}
+.box3 p{
+				max-width:260px;
+			 color: #a8feff;
+ ​  ​  font-size:20px ;
+}
+.box{
+			padding: 15px 10px 15px 20px;
+}
+@media(min-width:600px){
+				.wrapper{
+				display: grid;
+				grid-template-columns: 30% 30%;
+				justify-content: center;
+				}
+				.box1{
+								grid-column: 1/3;
+				}
+				.box3{
+								overflow: hidden;
+				}
+				.box1 p{
+								max-width: 85%;
+				}
+}
+
+@media(max-width:400px){
+				.box2 button{
+								width: 210px;
+				}
+}
