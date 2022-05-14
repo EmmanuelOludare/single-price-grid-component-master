@@ -10,9 +10,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -34,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://your-solution-url.com)
+- Live Site URL: [Live Site URL](https://single-price-grid-component-master-m.netlify.app/)
 
 ## My process
 
@@ -50,7 +47,7 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@Michaelhybrid](https://www.frontendmentor.io/profile/Michaelhybrid)
-- Twitter - [@yourusername](https://twitter.com/micheal_olu99)
+- Twitter - [@micheal_olu99](https://twitter.com/micheal_olu99)
 
 ## Acknowledgments
 
